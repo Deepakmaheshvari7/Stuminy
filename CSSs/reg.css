@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #9b9fa1; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  }
+  .book-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 80vh;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  
+  .page {
+    width: 50%;
+    padding: 40px;
+    overflow-y: auto;
+  }
+
+  .left-page {
+    background-color: #f9fafb;
+    border-right: 2px solid #e0e0e0;
+  }
+  
+  .signin {
+    font-size: 14.5px;
+    color: rgba(18, 17, 17, 0.7);
+  }
+  
+  .signin {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .signin a {
+    color: #00bfff;
+  }
+  .right-page {
+    background-color: #ffffff;
+  }
+  
+  .step-header {
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .step.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .overview img{
+    width: 90%;
+    border-radius: 20px;
+  }
+  .form-step {
+    display: none;
+  }
+  
+  .form-step.active {
+    display: block;
+  }
+  
