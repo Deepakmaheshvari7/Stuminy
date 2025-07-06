@@ -46,10 +46,10 @@
     color: rgba(18, 17, 17, 0.7);
   }
   
-/*   .signin {
+  .signin {
     padding: 15px;
     text-align: center;
-  } */
+  }
   
   .signin a:hover {
     text-decoration: underline royalblue;
